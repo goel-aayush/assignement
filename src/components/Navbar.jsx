@@ -3,7 +3,6 @@ import React from "react";
 const Navbar = () => {
   return (
     <nav className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
-      {/* Logo Area */}
       <a href="/" className="flex items-center">
         <img
           src="https://www.havenark.in/assets/haven-ark-logo.BsEvOyec.png"
@@ -12,14 +11,12 @@ const Navbar = () => {
         />
       </a>
 
-      {/* Center Links */}
       <div className="hidden md:flex items-center gap-8">
         <a href="#" className="text-gray-500 hover:text-gray-900 font-medium">
           Masterclass
         </a>
       </div>
 
-      {/* Right Actions */}
       <div className="flex items-center gap-4">
         <button className="text-gray-600 font-medium hover:text-gray-900">
           Login
